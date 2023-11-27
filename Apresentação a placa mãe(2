@@ -100,58 +100,48 @@
             <div id="container1">
                 <nav class="menu1">
                     <ul>
-                        <li><a href="javascript:void(0)" id="placs" onclick="placsNav()">O que é a Placa Mãe?</a></li>  
+                        <li><a href="javascript:void(0)" id="placs" onclick="placsNav()">1. Conectores da Placa mãe</a>
+                        </li>
                         <p id="placsoverlay" style="font-size: 16px; font-family: 'Courier New', Courier, monospace">
-                            Placa-mãe é o nome dado a uma placa de circuito impresso que integra o hardware de um
-                            computador. Ela contém slots (conexões) e conectores específicos para processador (CPU),
-                            memória RAM, unidades de armazenamento (SSD ou HD), placa de vídeo (GPU) e assim por diante.
-                            <br>
-                            Essa integração consiste em permitir que os componentes se comuniquem de modo que o
-                            computador se torne funcional. É por intermédio da placa-mãe que a CPU acessa os dados que
-                            estão na memória RAM, por exemplo.
-                            <br>
-                            As placas-mãe têm formatos e tamanhos variados. Isso vale principalmente para as unidades
-                            que equipam notebooks, servidores, workstations, celulares, tablets e outros equipamentos.
-                            Isso porque esses dispositivos variam em dimensões, recursos e propósitos.
-
-                            Este texto tem como base as placas-mãe para PCs. Nesse segmento, elas seguem tamanhos e
-                            formatos padronizados (form factors), como ATX e mini-ITX.
-                            <br>
-                            ASRock, Asus, Gigabyte e MSI estão entre as principais fabricantes de placas-mãe para PCs.
-                            <br>
-                            Neste ponto, vale destacar também que uma placa-mãe pode ser chamada de motherboard (nome
-                            que aparecerá mais vezes neste texto), mainboard, mobo, system board, entre outras
-                            denominações.
+                            Conectores traseiros
+                            No canto superior esquerdo da placa-mãe (considerando a posição torre), encontramos
+                            vários conectores posicionados na borda do componente. Essa localização permite que eles
+                            possam ser acessados a partir da traseira do gabinete. <br>
+                            Ali, há conectores como: <br>
+                            USB tipo A <br>
+                            USB-C <br>
+                            HDMI (vídeo) <br>
+                            DisplayPort (vídeo) <br>
+                            Ethernet (cabo de rede) <br>
+                            Áudio (como caixas de som e fones) <br>
+                            PS/2 (para teclado) <br>
+                            Motherboards antigas traziam conectores como paralelo (muito usado para impressoras) e
+                            VGA (vídeo). Esses padrões foram substituídos por tecnologias mais modernas, como USB
+                            e HDMI. <br>
+                            A quantidade e a variedade de conectores traseiros mudam de modelo para modelo. Alguns
+                            trazem quatro ou seis portas USB, por exemplo. Outros, duas conexões Ethernet. <br>
                         </p>
-                        <img src="gabinete-placa-mae.jpg" alt="" style="margin-left: 900px; height: 300px; margin-top: -300px;">
                     </ul>
                 </nav>
             </div>
+            <img src="placa-mae-partes.jpg" alt="" style="margin-left: 1000px; height: 500px; margin-top: -300px;">
             <div id="container1">
                 <nav class="menu1">
                     <ul>
-                        <li><a href="javascript:void(0)" id="cuid1" onclick="cuidNav()">Componentes da Placa mãe</a></li>
-                        <ul id="cuidoverlay" style="font-size: 16px; font-family: 'Courier New', Courier, monospace;">
-                            <p>As placas-mãe padronizadas têm formato retangular ou quadrangular. É assim para que elas
-                                possam ser instaladas
-                                adequadamente no gabinete do computador.
-                                <br>
-                                Nos gabinetes do tipo torre, a placa-mãe fica "em pé", ou seja, é instalada em posição
-                                vertical. Embora menos
-                                comuns no mercado, também é possível encontrar gabinetes horizontais, que deixam a placa
-                                “deitada”.
-                                <br>
-                                Em ambos os casos, os conectores da placa-mãe devem ser posicionados em áreas
-                                específicas. Isso porque é
-                                necessário garantir que componentes sejam acoplados nela e, ao mesmo, ocupem um local
-                                apropriado no gabinete.
-                                <br>
-                                Para entendermos essa organização, vamos dividir a placa-mãe em três partes essenciais e
-                                uma complementar. Os
-                                exemplos serão os modelos Prime B660M-A, da Asus, e Z690 Pro RS, da ASRock. A
-                                disponibilização dos conectores em
-                                cada parte deve ser seguida por toda a indústria, podendo haver apenas pequenas
-                                diferenças entre os modelos.
+                        <li><a href="javascript:void(0)" id="cuid1" onclick="cuidNav()" style="margin-top: -300px;">2.
+                                Slots da Componentes da Placa mãe</a></li>
+                        <ul id="cuidoverlay"
+                            style="font-size: 16px; font-family: 'Courier New', Courier, monospace; color: lime;">
+                            Abaixo dos conectores traseiros estão os slots de expansão. Eles recebem esse nome
+                            porque permitem a instalação de placas que expandem os recursos do computador. <br>
+                            Ao instalar uma placa ali, os conectores desta ficam acessíveis a partir da traseira do PC. <br>
+                            Entre os dispositivos que podem ser instalados nessa área estão placas de vídeo, placas
+                            Ethernet, placas de redes Wi-Fi e placas de som. Normalmente, os três últimos itens já
+                            estão “embutidos” na placa-mãe. Está aí a razão para ela ter conectores correspondentes a
+                            eles na traseira. <br>
+                            De todo modo, é possível instalar placas para diversas funções, mesmos que elas já
+                            existam na motherboard. Basta que elas sejam compatíveis com os slots existentes ali.
+
                             </p>
                         </ul>
                     </ul>
@@ -159,8 +149,8 @@
             </div>
         </div>
     </div>
-    <form action="Placa1.html" class="botao">
-        <input type="submit" value="Próxima página" class="btn" style="margin-inline-start: 850px; margin-top: -200px;">
+    <form action="Placa2.html" class="botao">
+        <input type="submit" value="Próxima página" class="btn" style="margin-inline-start: 850px; margin-top: -100px;">
     </form>
 </body>
 
